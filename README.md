@@ -1,2 +1,2 @@
-# micro-frontend-boilerplate
-It's for Micro-Frontend Boilerplate
+# micro-frontend-exercise
+It's for various exercise of micro frontend
