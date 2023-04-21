@@ -23,7 +23,7 @@ const App = () => {
       <div>Language: JavaScript</div>
       <div>CSS: Empty CSS</div>
 
-      <h1>나는 React: Vue와 Solid.js에 대한 Container 역할을 하고 있어!</h1>
+      <h1>나는 React: Vue, Solid.js, React에 대한 Container 역할!</h1>
       <div ref={vueRef} />
       <div ref={solidRef}/>
       <Counter/>

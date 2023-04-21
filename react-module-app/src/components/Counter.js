@@ -7,7 +7,7 @@ export const Counter = () => {
 
     return (
         <div>
-            <h1>Counter App</h1>
+            <h1>나는 React: Counter App</h1>
             <p>Current count: <strong>{count}</strong></p>
             <button onClick={onIncrement}>+</button>
             <button onClick={onDecrement}>-</button>
