@@ -6,7 +6,7 @@
       "react-module-app",
       "vue-module-app",
       "solid-module-app",
-      "container"
+      "host-container-app"
     ]
   },
   "scripts": {

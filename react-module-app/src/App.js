@@ -1,30 +1,10 @@
-import React, { useEffect, useRef } from 'react';
-import { mount } from 'vueModuleApp/Sample';
-import solidCounterWrapper from 'solidModuleApp/counterWrapper'
+import React from "react";
+import { Counter } from "./components/Counter";
 
-const App = () => {
-  const ref = useRef(null)
-  const solidRef = useRef(null)
+const App = () => (
+  <div className="container">
+    <Counter />
+  </div>
+);
 
-  useEffect(() => {
-    mount(ref.current);
-    solidCounterWrapper(solidRef.current)
-  }, []);
-
-  return (
-    <div
-      style={{
-        margin: '10px',
-        padding: '10px',
-        textAlign: 'center',
-        backgroundColor: 'cyan',
-      }}
-    >
-      <h1>나는 React: Vue와 Solid.js에 대한 Container 역할을 하고 있어!</h1>
-      <div ref={ref} />
-      <div ref={solidRef}/>
-    </div>
-  );
-};
-
-export default App;
+export { App }
